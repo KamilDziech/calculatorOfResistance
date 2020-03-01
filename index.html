@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <title>Resist Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class=" title">
+        <h1>4 Band Resistor Color Code Calculator</h1>
+    </section>
+
+    <div class="container">
+        <section class="wrap">
+            <p class=" text">The script below allows you to easily calculate the resistance value based on the
+                colors you can see on the resistor. You have to choose the colors of the strips on the resistor to
+                get
+                its
+                values and acceptable tolerance. </p>
+            <div class="result-space">Resistor: <span class="result">- - -</span></div>
+
+            <div class="image">
+                <div class="Fband"></div>
+                <div class="Sband"></div>
+                <div class="multi"></div>
+                <div class="tol"></div>
+            </div>
+        </section>
+        <div class="first-select select">
+            <h2>1st Band</h2>
+
+            <div class="select-box">
+                <div class="options-container one">
+                    <div class="option black">
+                        <input type="" class="band" id="black" />
+                        <option value="0" for="black">black</option>
+
+                    </div>
+
+                    <div class="option brown">
+                        <input type="" class="band" id="brown" />
+                        <option value="1" for="brown">brown</option>
+                    </div>
+
+                    <div class="option red">
+                        <input type="" class="band" id="red" />
+                        <option value="2" for="red">red</option>
+                    </div>
+
+                    <div class="option orange">
+                        <input type="" class="band" id="orange" />
+                        <option value="3" for="orange">orange</option>
+                    </div>
+
+                    <div class="option yellow">
+                        <input type="" class="band" id="yellow" />
+                        <option value="4" for="yellow">yellow </option>
+                    </div>
+
+                    <div class="option green">
+                        <input type="" class="band" id="green" />
+                        <option value="5" for="green">green</option>
+                    </div>
+
+                    <div class="option blue">
+                        <input type="" class="band" id="blue" />
+                        <option value="6" for="blue">blue</option>
+                    </div>
+
+                    <div class="option violet">
+                        <input type="" class="band" id="violet" />
+                        <option value="7" for="violet">violet</option>
+                    </div>
+
+                    <div class="option gray">
+                        <input type="" class="band" id="gray" />
+                        <option value="8" for="gray">gray</option>
+                    </div>
+                    <div class="option white">
+                        <input type="" class="band" id="white" />
+                        <option value="9" for="white">white</option>
+                    </div>
+                </div>
+
+                <div class="first-selected selected">
+                    Select color
+
+                </div>
+            </div>
+        </div>
+        <div class="second-select select">
+            <h2>2nd Band</h2>
+
+            <div class="select-box">
+                <div class="options-container two">
+                    <div class="option black">
+                        <input type="" class="band" id="black" />
+                        <option value="0" for="black">black</option>
+                    </div>
+
+                    <div class="option brown">
+                        <input type="" class="band" id="brown" />
+                        <option value="1" for="brown">brown</option>
+                    </div>
+
+                    <div class="option red">
+                        <input type="" class="band" id="red" />
+                        <option value="2" for="red">red</option>
+                    </div>
+
+                    <div class="option orange">
+                        <input type="" class="band" id="orange" />
+                        <option value="3" for="orange">orange</option>
+                    </div>
+
+                    <div class="option yellow">
+                        <input type="" class="band" id="yellow" />
+                        <option value="4" for="yellow">yellow </option>
+                    </div>
+
+                    <div class="option green">
+                        <input type="" class="band" id="green" />
+                        <option value="5" for="green">green</option>
+                    </div>
+
+                    <div class="option blue">
+                        <input type="" class="band" id="blue" />
+                        <option value="6" for="blue">blue</option>
+                    </div>
+
+                    <div class="option violet">
+                        <input type="" class="band" id="violet" />
+                        <option value="7" for="violet">violet</option>
+                    </div>
+
+                    <div class="option gray">
+                        <input type="" class="band" id="gray" />
+                        <option value="8" for="gray">gray</option>
+                    </div>
+                    <div class="option white">
+                        <input type="" class="band" id="white" />
+                        <option value="9" for="white">white</option>
+                    </div>
+                </div>
+
+                <div class="second-selected selected">
+                    Select color
+                </div>
+            </div>
+        </div>
+        <div class="multiplier select">
+            <h2>Multiplier</h2>
+
+            <div class="select-box">
+                <div class="options-container three">
+                    <div class="option black">
+                        <input type="" class="band" id="black" />
+                        <option value="1" for="black">black</option>
+                    </div>
+
+                    <div class="option brown">
+                        <input type="" class="band" id="brown" />
+                        <option value="10" for="brown">brown</option>
+                    </div>
+
+                    <div class="option red">
+                        <input type="" class="band" id="red" />
+                        <option value="100" for="red">red</option>
+                    </div>
+
+                    <div class="option orange">
+                        <input type="" class="band" id="orange" />
+                        <option value="1000" for="orange">orange</option>
+                    </div>
+
+                    <div class="option yellow">
+                        <input type="" class="band" id="yellow" />
+                        <option value="10000" for="yellow">yellow </option>
+                    </div>
+
+                    <div class="option green">
+                        <input type="" class="band" id="green" />
+                        <option value="100000" for="green">green</option>
+                    </div>
+
+                    <div class="option blue">
+                        <input type="" class="band" id="blue" />
+                        <option value="1000000" for="blue">blue</option>
+                    </div>
+
+                    <div class="option violet">
+                        <input type="" class="band" id="violet" />
+                        <option value="10000000" for="violet">violet</option>
+                    </div>
+
+                    <div class="option gray">
+                        <input type="" class="band" id="gray" />
+                        <option value="100000000" for="gray">gray</option>
+                    </div>
+                    <div class="option white">
+                        <input type="" class="band" id="white" />
+                        <option value="1000000000" for="white">white</option>
+                    </div>
+                    <div class="option gold">
+                        <input type="" class="band" id="gold" />
+                        <option value="0.1" for="gold">gold</option>
+                    </div>
+                    <div class="option silver">
+                        <input type="" class="band" id="silver" />
+                        <option value="0.01" for="silver">silver</option>
+                    </div>
+                </div>
+
+                <div class="multi-selected selected">
+                    Select color
+
+                </div>
+            </div>
+        </div>
+        <div class="tolerance select">
+            <h2>Tolerance</h2>
+
+            <div class="select-box">
+                <div class="options-container four">
+
+                    <div class="option brown">
+                        <input type="" class="band" id="brown" />
+                        <option value="1" for="brown">brown</option>
+                    </div>
+
+                    <div class="option red">
+                        <input type="" class="band" id="red" />
+                        <option value="2" for="red">red</option>
+                    </div>
+
+                    <div class="option gold">
+                        <input type="" class="band" id="gold" />
+                        <option value="5" for="gold">gold</option>
+                    </div>
+
+                    <div class="option silver">
+                        <input type="" class="band" id="silver" />
+                        <option value="10" for="silver">silver</option>
+                    </div>
+
+                </div>
+
+                <div class="toler-selected selected">
+                    Select color
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
