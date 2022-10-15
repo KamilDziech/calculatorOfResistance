@@ -1,5 +1,4 @@
 
-Najczęściej spotykanym sposobem oznaczania oporników jest stosowanie kodu barwnego. Jest to najprostszy sposób umieszczenia niezbędnych parametrów na małej powierzchni. Poszczególne kolory mają przypisane cyfry zgodnie z tabelą którą można zobaczyć pod linkiem: 
-http://www.sysrecon.com/wp-content/uploads/2014/07/ResistorColorChart.png
+The most common method of marking resistors is the use of a color code. This is the easiest way to place the necessary parameters on a small area. Individual colors are assigned numbers according to the table that can be seen at the link: http://www.sysrecon.com/wp-content/uploads/2014/07/ResistorColorChart.png
 
-Na oporniku spotykamy zwykle 4 lub 5 pasków. W systemie znakowania cztero-paskowym dwa pierwsze oznaczają wartość rezystancji a trzeci mnożnik przez który należy pomnożyć te dwie pierwsze liczby. Czwarty pasek to dopuszczalna tolerancja. W celu szybkiego otrzymania wartosci rezystancji można skorzystać z kalkulatora rezystancji. 
+There are usually 4 or 5 stripes on the resistor. In a four-bar marking system, the first two indicate the resistance value and the third multiplier by which to multiply the first two numbers. The fourth stripe is the acceptable tolerance. You can use a resistance calculator to get the resistance value quickly.
